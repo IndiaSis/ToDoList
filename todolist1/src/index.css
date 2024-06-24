@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,167 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+
+
+
+body{
+  background-image: url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?t=st=1718124060~exp=1718127660~hmac=fe8c4024d3561660db6b6f105b592d74d33ee18b5af2185484652d1c6c5c1e5f&w=1060");
 }
+
+.navbar-1 .car{
+  background-image: url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?t=st=1718124060~exp=1718127660~hmac=fe8c4024d3561660db6b6f105b592d74d33ee18b5af2185484652d1c6c5c1e5f&w=1060");
+}
+
+.navbar{
+  background: transparent;
+}
+
+.dark-buttons{
+  align-items: flex-end;
+}
+
+.get{
+  display: inline-block;
+}
+
+.nav-item{
+  padding: 2px;
+}
+
+.card-1{
+  background-image: url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?t=st=1718124060~exp=1718127660~hmac=fe8c4024d3561660db6b6f105b592d74d33ee18b5af2185484652d1c6c5c1e5f&w=1060");
+  border: none;
+}
+
+.Dynamic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Dynamic1{
+  color: grey;
+  font-weight: bold;
+}
+
+.Dynamic2{
+  font-weight: bold;
+}
+
+.dialogue{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: 5px;
+  flex-direction: row;
+
+
+  
+}
+
+.description{
+  border: none;
+  outline: none;
+  resize:none;
+  width: 18rem;
+}
+.entered{
+  height: 3rem;
+}
+
+.card{
+  width: 24rem;
+  /* height: 100vh; */
+  background-color: white;
+
+}
+
+.bt{
+  border: none;
+}
+
+/* .car{
+  background-color: black;
+} */
+
+.text{
+  color: grey;
+}
+
+.it-2{
+  display: flex;
+  
+  
+}
+
+.it-1{
+  margin-left: auto;
+}
+
+.para{
+  align-self: center;
+}
+
+.parallel{
+  align-self: flex-end;
+}
+
+.treaty{
+  margin-left: 10vw;
+}
+
+.hello{
+  background-color: black;
+}
+
+
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+
+/* form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+} */
+
+
+.newb{
+  display: flex;
+  align-items: flex-end;
+}
+
