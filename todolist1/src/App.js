@@ -15,11 +15,44 @@ function App() {
 
 
 
+
+
   function addNote(newNote){
       setnewtask(prevNote=>{
           return [...prevNote, newNote];
       });
   }
+
+  function deleteTask(id){
+    setnewtask(prevNote=>{
+      return prevNote.filter((taskitem, index)=>{
+        return index !== id;
+      });
+    });
+  }
+
+
+  function deleteAllTask(){
+    setnewtask([]);
+  }
+
+
+  function s(){
+    return tasks.length;
+  }
+
+  // function completeTask(id){
+  //   const [style, settaskstyle]=useState("none");
+
+  //   tasks.map((taskitem, index)=>{
+  //         if (index===id){
+  //           taskitem.title.style.text-decoration = "line-through";
+  //         }
+  //   })
+
+
+
+  // }
 
 
 
@@ -38,16 +71,17 @@ function App() {
                         id={index}
                         title={taskitem.title}
                         content={taskitem.content}
-                        // onDelete={deleteNote}
-                        // onComplete={completeNote}
+                        onDelete={deleteTask}
+                        // onComplete={completeTask}
+                        
                         // onEdit={editNote}
                         />
                 );
             })}
             </div>
             
-            <Find />
-            <Features />
+            {/* <Find /> */}
+            <Features deleteAll={deleteAllTask}/>
             <Footer />
     
     
@@ -56,3 +90,4 @@ function App() {
 }
 
 export default App;
+
